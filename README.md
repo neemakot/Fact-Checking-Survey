@@ -20,7 +20,7 @@ The pipeline commonly employed for automated fact-checking consists of four part
 
 We propose that post-hoc explanations are an important and necessary extension of this pipeline.
 
-![alt-text](resources/pipeline.svg)
+![alt-text](images/pipeline.svg)
 
 
 ## Data and results
