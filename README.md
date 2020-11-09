@@ -4,7 +4,7 @@ This repository and the accompanying [webpage](https://neemakot.github.io/projec
 
 ## Introduction
 
-Fact checking is the process of verifying claims in order to establish their veracity i.e., to distinguish between false stories (e.g., misattributions, rumours, hoaxes) and facts. 
+Fact checking is the process of establishing the veracity of claims i.e., to distinguish between false stories (e.g., misattributions, rumours, hoaxes) and facts. 
 
 Over the past few years the use of machine learning methods for fact-checking and fake news detection has become a popular topic of study. Indeed, several exciting breakthroughs have occured in automated fact checking thanks in large part due to new datasets (e.g., [FEVER](https://fever.ai/)) and advances in deep learning for NLP. However there are still some limitations in this research area, the one we focus on in this work in our work is __explanations__ for automated fact checking. 
 
@@ -13,7 +13,7 @@ The pipeline commonly employed for automated fact-checking consists of four part
 ![alt-text](images/pipeline.svg)
 
 
-For the complete data and results from our survey paper, please visit [this webpage](https://neemakot.github.io/project/survey).
+For an overview of the data and results mentioned in our survey, please visit [this webpage](https://neemakot.github.io/project/survey).
 
 
 ## Reference
@@ -21,15 +21,15 @@ For the complete data and results from our survey paper, please visit [this webp
 If you find our work useful, please cite the paper as formatted below.
 
 ```
-@inproceedings{kotonya2020survey,
-  title = "Explainable Automated Fact-Checking: A Survey",
-  author = "Kotonya, Neema  and Toni, Francesca",
-  booktitle = "28th International Conference on Computational Linguistics (COLING 2020)",
-  publisher = "Association for Computational Linguistics",
-  address = "Online",
-  month = dec,
-  year = "2020"
-}
+  @inproceedings{kotonya2020survey,
+    title = "Explainable Automated Fact-Checking: A Survey",
+    author = "Kotonya, Neema  and Toni, Francesca",
+    booktitle = "28th International Conference on Computational Linguistics (COLING 2020)",
+    publisher = "Association for Computational Linguistics",
+    address = "Online",
+    month = dec,
+    year = "2020"
+  }
 ```
 
 
@@ -53,6 +53,7 @@ List of fact checking, rumour verification and fake news detection datasets:
 ### Naturally occurring claims
   
   * __Social media (e.g., Twitter)__
+    * r/Fakeddit: A New Multimodal Benchmark Dataset for Fine-grained Fake News Detection (Nakamura et al., LREC 2019) [[DATA]](https://github.com/entitize/fakeddit) [[PAPER]](https://www.aclweb.org/anthology/2020.lrec-1.755/)
     * SemEval-2019 Task 7: RumourEval, Determining Rumour Veracity and Support for Rumours (Gorrell et al., SemEval 2019) [[DATA]](https://competitions.codalab.org/competitions/19938) [[PAPER]](https://www.aclweb.org/anthology/S19-2147/)
     * SemEval-2017 Task 8: RumourEval: Determining rumour veracity and support for rumours (Derczynski et al., 2017) [[DATA]](https://alt.qcri.org/semeval2017/task8/index.php?id=data-and-tools) [[PAPER]](https://www.aclweb.org/anthology/S17-2006/)
     * FakeNewsNet: A Data Repository with News Content, Social Context and Spatialtemporal Information for Studying Fake News on Social Media (Shu et al., 2018) [[DATA]](https://github.com/KaiDMML/FakeNewsNet) [[PAPER]](https://arxiv.org/pdf/1809.01286.pdf)
@@ -75,6 +76,7 @@ List of fact checking, rumour verification and fake news detection datasets:
 ## Fact Checking Shared Tasks
 
 * SciFact Claim Verifiation [[Wadden et al., 2020]](https://scifact.apps.allenai.org/)
+* Fakeddit Multimodal Fake News Detection Challenge [[Nakamura et al., 2020]](https://competitions.codalab.org/competitions/25337#learn_the_details)
 * SemEval-2019 Task 7: RumourEval, Determining Rumour Veracity and Support for Rumours [[Gorrell et al., 2019]](https://www.aclweb.org/anthology/S19-2147/)
 * The Fake News Challenge (FNC-1) [[Pomerleau and Rao, 2017]](http://www.fakenewschallenge.org/)
   * A Retrospective Analysis of the Fake News Challenge Stance-Detection Task [[Hanselowski et al., 2018]](https://www.aclweb.org/anthology/C18-1158/)
