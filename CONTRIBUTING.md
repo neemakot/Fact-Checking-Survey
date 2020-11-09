@@ -14,5 +14,5 @@ When contributing to this repo, please communicate the reasons for the proposed 
 5. When you have finished making your changes, you will be prompted to enter the reason for your proposed changes. This doesn't have to be long. 
 6. Lastly, [create a pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
 
-More information about making a contribution 
+More advanced information about making a contribution to a GitHub repository can be found [here](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project).
 
