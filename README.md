@@ -1,6 +1,6 @@
 # Explainable Fact Checking: A Survey
 
-This repository and the accompanying [webpage](https://neemakot.github.io/project/survey) contain resources for our COLING 2020 paper ["Explainable Fact Checking: A Survey" (Kotonya and Toni, 2020)](https://arxiv.org/abs/2011.****). In the paper we give a critical review of the state of the art in automated fact-checking with a particular focus on explanations for fact-checking. 
+This repository and the accompanying [webpage](https://neemakot.github.io/project/survey) contain resources for our COLING 2020 paper ["Explainable Fact Checking: A Survey" (Kotonya and Toni, 2020)](https://arxiv.org/abs/2011.03870). In the paper we give a critical review of the state of the art in automated fact-checking with a particular focus on explanations for fact-checking. 
 
 ## Introduction
 
