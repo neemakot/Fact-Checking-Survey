@@ -69,7 +69,6 @@ List of fact checking, rumour verification and fake news detection datasets:
 * r/Fakeddit: A New Multimodal Benchmark Dataset for Fine-grained Fake News Detection (Nakamura et al., LREC 2020) [[DATA]](https://github.com/entitize/fakeddit) [[PAPER]](https://www.aclweb.org/anthology/2020.lrec-1.755/)
 * SemEval-2019 Task 7: RumourEval, Determining Rumour Veracity and Support for Rumours (Gorrell et al., SemEval 2019) [[DATA]](https://competitions.codalab.org/competitions/19938) [[PAPER]](https://www.aclweb.org/anthology/S19-2147/)
 * SemEval-2017 Task 8: RumourEval: Determining rumour veracity and support for rumours (Derczynski et al., 2017) [[DATA]](https://alt.qcri.org/semeval2017/task8/index.php?id=data-and-tools) [[PAPER]](https://www.aclweb.org/anthology/S17-2006/)
-* FakeNewsNet: A Data Repository with News Content, Social Context and Spatialtemporal Information for Studying Fake News on Social Media (Shu et al., 2018) [[DATA]](https://github.com/KaiDMML/FakeNewsNet) [[PAPER]](https://arxiv.org/pdf/1809.01286.pdf)
 * CREDBANK: A Large-Scale Social Media Corpus with Associated Credibility Annotations (Mitra and Gilbert, ICWSM 2015) [[DATA]](https://github.com/compsocial/CREDBANK-data) [[PAPER]](https://www.aaai.org/ocs/index.php/ICWSM/ICWSM15/paper/viewFile/10582/10509)
 * Hyperpartisan Facebook Pages Are Publishing False And Misleading Information At An Alarming Rate (Silverman et al., 2017) [[ARTICLE]](https://www.buzzfeednews.com/article/craigsilverman/partisan-fb-pages-analysis) [[DATA]](https://github.com/BuzzFeedNews/2016-10-facebook-fact-check)
 
@@ -80,6 +79,7 @@ List of fact checking, rumour verification and fake news detection datasets:
 * A Richly Annotated Corpus for Different Tasks in Automated Fact-Checking (Hanselowski et al., CoNLL 2019) [[DATA]](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2081) [[CRAWLER]](https://github.com/UKPLab/conll2019-snopes-crawling) [[PAPER]](https://www.aclweb.org/anthology/K19-1046)
 * “Liar, Liar Pants on Fire”: A New Benchmark Dataset for Fake News Detection (Wang, ACL 2017) [[DATA]](https://sites.cs.ucsb.edu/~william/software.html) [[PAPER]](https://www.aclweb.org/anthology/P17-2067/)
 * Integrating Stance Detection and Fact Checking in a Unified Corpus (Baly et al., NAACL-18) [[DATA]](https://alt.qcri.org/resources/arabic-fact-checking-and-stance-detection-corpus/) [[PAPER]](https://arxiv.org/abs/1804.08012)
+* FakeNewsNet: A Data Repository with News Content, Social Context and Spatialtemporal Information for Studying Fake News on Social Media (Shu et al., 2018) [[DATA]](https://github.com/KaiDMML/FakeNewsNet) [[PAPER]](https://arxiv.org/pdf/1809.01286.pdf)
 
 #### Scientific journals
 
