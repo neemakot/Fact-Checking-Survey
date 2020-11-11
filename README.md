@@ -31,8 +31,10 @@ Here is an overview of papers mentioned in this work, and more recent papers whi
   - [Naturally occuring claims](#naturally-occurring-claims)
     - [Social media (e.g., Twitter, Facebook)](#social-media)
     - [Fact-checking and news websites (e.g., Snopes, Politifact)](#fact-checking-and-news-websites)
-    - [Scientific journals](#scientific-journals)
   - [Hand crafted claims](#hand-crafted-claims)
+    - [Wikipedia](#wikipedia)
+    - [Scientific journals](#scientific-journals)
+
 - [Fact Checking Systems Shared Task](#fact-checking-systems)
 - [Explainable Fact Checking Systems](#explainable-fact-checking-systems)
   - [Explanation by attention mechanisms](#attention-mechanism)
@@ -81,14 +83,16 @@ List of fact checking, rumour verification and fake news detection datasets:
 * Integrating Stance Detection and Fact Checking in a Unified Corpus (Baly et al., NAACL-18) [[DATA]](https://alt.qcri.org/resources/arabic-fact-checking-and-stance-detection-corpus/) [[PAPER]](https://arxiv.org/abs/1804.08012)
 * FakeNewsNet: A Data Repository with News Content, Social Context and Spatialtemporal Information for Studying Fake News on Social Media (Shu et al., 2018) [[DATA]](https://github.com/KaiDMML/FakeNewsNet) [[PAPER]](https://arxiv.org/pdf/1809.01286.pdf)
 
-#### Scientific journals
 
-* Fact or Fiction: Verifying Scientific Claims (Wadden et al., EMNLP 2020) [[DATA]](https://github.com/allenai/scifact) [[PAPER]](https://arxiv.org/abs/2004.14974)
 
 ### Hand crafted claims / re-written statements 
 
+#### Wikipedia
 * TabFact: A Large-scale Dataset for Table-based Fact Verification (Chen et al., ICLR 2020) [[DATA]](https://github.com/wenhuchen/Table-Fact-Checking) [[PAPER]](https://arxiv.org/abs/1909.02164)
 * FEVER: a Large-scale Dataset for Fact Extraction and VERification (Thorne et al., NAACL '18) [[DATA]](https://fever.ai/resources.html) [[PAPER]](https://www.aclweb.org/anthology/N18-1074/)
+
+#### Scientific journals
+* Fact or Fiction: Verifying Scientific Claims (Wadden et al., EMNLP 2020) [[DATA]](https://github.com/allenai/scifact) [[PAPER]](https://arxiv.org/abs/2004.14974)
 
 ## Fact Checking Shared Tasks
 
