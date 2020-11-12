@@ -68,31 +68,38 @@ List of fact checking, rumour verification and fake news detection datasets:
   
 #### Social media
 
-* r/Fakeddit: A New Multimodal Benchmark Dataset for Fine-grained Fake News Detection (Nakamura et al., LREC 2020) [[DATA]](https://github.com/entitize/fakeddit) [[PAPER]](https://www.aclweb.org/anthology/2020.lrec-1.755/)
-* SemEval-2019 Task 7: RumourEval, Determining Rumour Veracity and Support for Rumours (Gorrell et al., SemEval 2019) [[DATA]](https://competitions.codalab.org/competitions/19938) [[PAPER]](https://www.aclweb.org/anthology/S19-2147/)
-* SemEval-2017 Task 8: RumourEval: Determining rumour veracity and support for rumours (Derczynski et al., 2017) [[DATA]](https://alt.qcri.org/semeval2017/task8/index.php?id=data-and-tools) [[PAPER]](https://www.aclweb.org/anthology/S17-2006/)
-* CREDBANK: A Large-Scale Social Media Corpus with Associated Credibility Annotations (Mitra and Gilbert, ICWSM 2015) [[DATA]](https://github.com/compsocial/CREDBANK-data) [[PAPER]](https://www.aaai.org/ocs/index.php/ICWSM/ICWSM15/paper/viewFile/10582/10509)
-* Hyperpartisan Facebook Pages Are Publishing False And Misleading Information At An Alarming Rate (Silverman et al., 2017) [[ARTICLE]](https://www.buzzfeednews.com/article/craigsilverman/partisan-fb-pages-analysis) [[DATA]](https://github.com/BuzzFeedNews/2016-10-facebook-fact-check)
+* r/Fakeddit: A New Multimodal Benchmark Dataset for Fine-grained Fake News Detection [[Nakamura et al., LREC 2020]](https://www.aclweb.org/anthology/2020.lrec-1.755/)
+[[DATA]](https://github.com/entitize/fakeddit) 
+* SemEval-2019 Task 7: RumourEval, Determining Rumour Veracity and Support for Rumours [[Gorrell et al., SemEval 2019]](https://www.aclweb.org/anthology/S19-2147/) [[DATA]](https://competitions.codalab.org/competitions/19938) 
+* All-in-one: Multi-task Learning for Rumour Verification [[Kochkina et al., COLING '18]](https://www.aclweb.org/anthology/C18-1288/) [[DATA]](https://figshare.com/articles/PHEME_dataset_for_Rumour_Detection_and_Veracity_Classification/6392078) †
+* SemEval-2017 Task 8: RumourEval: Determining rumour veracity and support for rumours [[Derczynski et al., 2017]](https://www.aclweb.org/anthology/S17-2006/) [[DATA]](https://alt.qcri.org/semeval2017/task8/index.php?id=data-and-tools) 
+* Hyperpartisan Facebook Pages Are Publishing False And Misleading Information At An Alarming Rate [[Silverman et al., 2017]](https://www.buzzfeednews.com/article/craigsilverman/partisan-fb-pages-analysis) [[DATA]](https://github.com/BuzzFeedNews/2016-10-facebook-fact-check)
+* Detect Rumors in Microblog Posts Using Propagation Structure via Kernel Learning [[Ma et al., ACL 2017]](https://www.aclweb.org/anthology/P17-1066/) [[DATA]](https://www.dropbox.com/s/7ewzdrbelpmrnxu/rumdetect2017.zip?dl=0)
+* Analysing How People Orient to and Spread Rumours in Social Media by Looking at Conversational Threads [[Zubiaga et al., 2016]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0150989) [[DATA]](https://figshare.com/articles/PHEME_rumour_scheme_dataset_journalism_use_case/2068650) 
+* CREDBANK: A Large-Scale Social Media Corpus with Associated Credibility Annotations [[Mitra and Gilbert, ICWSM 2015]](https://www.aaai.org/ocs/index.php/ICWSM/ICWSM15/paper/viewFile/10582/10509) [[DATA]](https://github.com/compsocial/CREDBANK-data) 
+
+† This dataset is an extention of the PHEME rumour dataset.
 
 #### Fact checking and news websites
   
-* Explainable Automated Fact-Checking for Public Health Claims (Kotonya and Toni, EMNLP 2020) [[DATA]](https://github.com/neemakot/Health-Fact-Checking) [[PAPER]](https://arxiv.org/abs/2010.09926)
-* MultiFC: A Real-World Multi-Domain Dataset for Evidence-Based Fact Checking of Claims (Augenstein et al., EMNLP 2019) [[DATA]](https://competitions.codalab.org/competitions/21163) [[PAPER]](https://www.aclweb.org/anthology/D19-1475/)
-* A Richly Annotated Corpus for Different Tasks in Automated Fact-Checking (Hanselowski et al., CoNLL 2019) [[DATA]](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2081) [[CRAWLER]](https://github.com/UKPLab/conll2019-snopes-crawling) [[PAPER]](https://www.aclweb.org/anthology/K19-1046)
-* “Liar, Liar Pants on Fire”: A New Benchmark Dataset for Fake News Detection (Wang, ACL 2017) [[DATA]](https://sites.cs.ucsb.edu/~william/software.html) [[PAPER]](https://www.aclweb.org/anthology/P17-2067/)
-* Integrating Stance Detection and Fact Checking in a Unified Corpus (Baly et al., NAACL-18) [[DATA]](https://alt.qcri.org/resources/arabic-fact-checking-and-stance-detection-corpus/) [[PAPER]](https://arxiv.org/abs/1804.08012)
-* FakeNewsNet: A Data Repository with News Content, Social Context and Spatialtemporal Information for Studying Fake News on Social Media (Shu et al., 2018) [[DATA]](https://github.com/KaiDMML/FakeNewsNet) [[PAPER]](https://arxiv.org/pdf/1809.01286.pdf)
-
+* Explainable Automated Fact-Checking for Public Health Claims [[Kotonya and Toni, EMNLP 2020]](https://arxiv.org/abs/2010.09926) [[DATA]](https://github.com/neemakot/Health-Fact-Checking)
+* MultiFC: A Real-World Multi-Domain Dataset for Evidence-Based Fact Checking of Claims [[Augenstein et al., EMNLP 2019]](https://www.aclweb.org/anthology/D19-1475/) [[DATA]](https://competitions.codalab.org/competitions/21163) 
+* A Richly Annotated Corpus for Different Tasks in Automated Fact-Checking [[Hanselowski et al., CoNLL 2019]](https://www.aclweb.org/anthology/K19-1046) [[CRAWLER]](https://github.com/UKPLab/conll2019-snopes-crawling) [[DATA]](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2081)
+* “Liar, Liar Pants on Fire”: A New Benchmark Dataset for Fake News Detection [[Wang, ACL 2017]](https://www.aclweb.org/anthology/P17-2067/) [[DATA]](https://sites.cs.ucsb.edu/~william/software.html) 
+* Integrating Stance Detection and Fact Checking in a Unified Corpus [[Baly et al., NAACL-18]](https://arxiv.org/abs/1804.08012) [[DATA]](https://alt.qcri.org/resources/arabic-fact-checking-and-stance-detection-corpus/)
+* FakeNewsNet: A Data Repository with News Content, Social Context and Spatialtemporal Information for Studying Fake News on Social Media [[Shu et al., 2018]](https://arxiv.org/pdf/1809.01286.pdf) [[DATA]](https://github.com/KaiDMML/FakeNewsNet)
+* The Fake News Challenge (FNC-1) [[DATA]](https://github.com/FakeNewsChallenge/fnc-1)
 
 
 ### Hand crafted claims / re-written statements 
 
 #### Wikipedia
-* TabFact: A Large-scale Dataset for Table-based Fact Verification (Chen et al., ICLR 2020) [[DATA]](https://github.com/wenhuchen/Table-Fact-Checking) [[PAPER]](https://arxiv.org/abs/1909.02164)
-* FEVER: a Large-scale Dataset for Fact Extraction and VERification (Thorne et al., NAACL '18) [[DATA]](https://fever.ai/resources.html) [[PAPER]](https://www.aclweb.org/anthology/N18-1074/)
+* TabFact: A Large-scale Dataset for Table-based Fact Verification [[Chen et al., ICLR 2020]](https://arxiv.org/abs/1909.02164) [[DATA]](https://github.com/wenhuchen/Table-Fact-Checking) 
+* FEVER: a Large-scale Dataset for Fact Extraction and VERification [[Thorne et al., NAACL '18]](https://www.aclweb.org/anthology/N18-1074/) [[DATA]](https://fever.ai/resources.html) 
 
 #### Scientific journals
-* Fact or Fiction: Verifying Scientific Claims (Wadden et al., EMNLP 2020) [[DATA]](https://github.com/allenai/scifact) [[PAPER]](https://arxiv.org/abs/2004.14974)
+* Fact or Fiction: Verifying Scientific Claims [[Wadden et al., EMNLP 2020]](https://arxiv.org/abs/2004.14974) [[DATA]](https://github.com/allenai/scifact)
+
 
 ## Fact Checking Shared Tasks
 
@@ -125,7 +132,7 @@ A list of works on explainability in fact-checking and fake news detection:
 
 
 ### Summarization
-<!-- * e-FEVER: Explanations and Summaries for Automated Fact Checking [[Stammbach and Ash, TTO'20]]() -->
+* e-FEVER: Explanations and Summaries for Automated Fact Checking [Stammbach and Ash, TTO'20]
 * Generating Fact Checking Explanations [[Atanasova et al., ACL 2020]](https://www.aclweb.org/anthology/2020.acl-main.656/)
 * Explainable Automated Fact Checking for Public Health Claims [[Kotonya and Toni, EMNLP 2020]](https://arxiv.org/abs/2010.09926)
 
@@ -146,6 +153,7 @@ List of papers which look at adversarial training for robust fact-checking:
 
 Multi-hop reasoning is closely important for explainability in fact-checking, recently there have been a number of papers which look to address this task:
 
+* HoVer: A Dataset for Many-Hop Fact Extraction And Claim Verification [[Jiang et al., Findings of EMNLP 2020]](https://arxiv.org/abs/2011.03088)
 * Multi-Hop Fact Checking of Political Claims [[Ostrowski et al., 2020]](https://arxiv.org/abs/2009.06401)
 * Chains-of-Reasoning at TextGraphs 2019 Shared Task: Reasoning over Chains of Facts for Explainable Multi-hop Inference [[Das et al., TextGraphs-13 @ EMNLP 2019]](https://www.aclweb.org/anthology/D19-5313/)
 
@@ -160,7 +168,7 @@ Automated Fact Checking and Fake News Detection Surveys:
 * Automated Fact Checking: Task Formulations, Methods and Future Directions [[Thorne and Vlachos, COLING'18]](https://www.aclweb.org/anthology/C18-1283/)
 * Media-Rich Fake News Detection: A Survey [[Parikh and Atrey MIPR '18]](https://ieeexplore.ieee.org/abstract/document/8397049)
 * Fake News Detection on Social Media: A Data Mining Perspective [[Shu et al., ACM SIGKDD Explorations Newsletter Sep 2017]](https://dl.acm.org/doi/abs/10.1145/3137597.3137600)
-
+* Detection and resolution of rumours in social media: A survey [[Zubiaga et al., 2018]](https://dl.acm.org/doi/10.1145/3161603)
 
 ## Contact 
 
