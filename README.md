@@ -1,6 +1,6 @@
 # Explainable Fact Checking: A Survey
 
-This repository and the accompanying [webpage](https://neemakot.github.io/project/survey) contain resources for our COLING 2020 paper ["Explainable Fact Checking: A Survey" (Kotonya and Toni, 2020)](https://arxiv.org/abs/2011.03870). In the paper we give a critical review of the state of the art in automated fact-checking with a particular focus on explanations for fact-checking. 
+This repository and the accompanying [webpage](https://neemakot.github.io/project/survey) contain resources for our COLING 2020 paper ["Explainable Fact Checking: A Survey"](https://arxiv.org/abs/2011.03870). In the paper we give a critical review of the state of the art in automated fact-checking with a particular focus on explanations for fact-checking. 
 
 We would like to keep the information in this repository up-to-date, so we welcome contributions. If you would like to contribute please read [CONTRIBUTING.md](CONTRIBUTING.md) to see how.
 
@@ -9,7 +9,7 @@ We would like to keep the information in this repository up-to-date, so we welco
 
 If you find our work useful, please cite the paper as formatted below.
 
-```
+```bibtex
   @inproceedings{kotonya2020survey,
     title = "Explainable Automated Fact-Checking: A Survey",
     author = "Kotonya, Neema  and Toni, Francesca",
@@ -85,10 +85,11 @@ List of fact checking, rumour verification and fake news detection datasets:
 * Explainable Automated Fact-Checking for Public Health Claims [[Kotonya and Toni, EMNLP 2020]](https://arxiv.org/abs/2010.09926) [[DATA]](https://github.com/neemakot/Health-Fact-Checking)
 * MultiFC: A Real-World Multi-Domain Dataset for Evidence-Based Fact Checking of Claims [[Augenstein et al., EMNLP 2019]](https://www.aclweb.org/anthology/D19-1475/) [[DATA]](https://competitions.codalab.org/competitions/21163) 
 * A Richly Annotated Corpus for Different Tasks in Automated Fact-Checking [[Hanselowski et al., CoNLL 2019]](https://www.aclweb.org/anthology/K19-1046) [[CRAWLER]](https://github.com/UKPLab/conll2019-snopes-crawling) [[DATA]](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2081)
-* “Liar, Liar Pants on Fire”: A New Benchmark Dataset for Fake News Detection [[Wang, ACL 2017]](https://www.aclweb.org/anthology/P17-2067/) [[DATA]](https://sites.cs.ucsb.edu/~william/software.html) 
 * Integrating Stance Detection and Fact Checking in a Unified Corpus [[Baly et al., NAACL-18]](https://arxiv.org/abs/1804.08012) [[DATA]](https://alt.qcri.org/resources/arabic-fact-checking-and-stance-detection-corpus/)
 * FakeNewsNet: A Data Repository with News Content, Social Context and Spatialtemporal Information for Studying Fake News on Social Media [[Shu et al., 2018]](https://arxiv.org/pdf/1809.01286.pdf) [[DATA]](https://github.com/KaiDMML/FakeNewsNet)
-* The Fake News Challenge (FNC-1) [[DATA]](https://github.com/FakeNewsChallenge/fnc-1)
+* “Liar, Liar Pants on Fire”: A New Benchmark Dataset for Fake News Detection [[Wang, ACL 2017]](https://www.aclweb.org/anthology/P17-2067/) [[DATA]](https://sites.cs.ucsb.edu/~william/software.html) 
+* Truth of Varying Shades: Analyzing Language in Fake News and Political Fact-Checking [[Rashkin et al., EMNLP 2017]](https://www.aclweb.org/anthology/D17-1317/) [[DATA]](https://hrashkin.github.io/factcheck.html)
+* The Fake News Challenge (Pomerleau and Rao, FNC-1 2017) [[DATA]](https://github.com/FakeNewsChallenge/fnc-1)
 
 
 ### Hand crafted claims / re-written statements 
