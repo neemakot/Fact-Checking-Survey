@@ -96,6 +96,7 @@ List of fact checking, rumour verification and fake news detection datasets:
 #### Wikipedia
 * TabFact: A Large-scale Dataset for Table-based Fact Verification [[Chen et al., ICLR 2020]](https://arxiv.org/abs/1909.02164) [[DATA]](https://github.com/wenhuchen/Table-Fact-Checking) 
 * FEVER: a Large-scale Dataset for Fact Extraction and VERification [[Thorne et al., NAACL '18]](https://www.aclweb.org/anthology/N18-1074/) [[DATA]](https://fever.ai/resources.html) 
+* Automated Fact-Checking of Claims from Wikipedia [[Sathe et al., LREC 2020]](https://www.aclweb.org/anthology/2020.lrec-1.849/) [[DATA]](https://github.com/wikifactcheck-english/wikifactcheck-english)
 
 #### Scientific journals
 * Fact or Fiction: Verifying Scientific Claims [[Wadden et al., EMNLP 2020]](https://arxiv.org/abs/2004.14974) [[DATA]](https://github.com/allenai/scifact)
