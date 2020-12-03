@@ -1,6 +1,6 @@
 # Explainable Fact Checking: A Survey
 
-This repository and the accompanying [webpage](https://neemakot.github.io/project/survey) contain resources for our COLING 2020 paper ["Explainable Fact Checking: A Survey"](https://arxiv.org/abs/2011.03870). In the paper we give a critical review of the state of the art in automated fact-checking with a particular focus on explanations for fact-checking. 
+This repository and the accompanying [webpage](https://neemakot.github.io/project/survey) contain resources for the paper ["Explainable Fact Checking: A Survey"](https://www.aclweb.org/anthology/2020.coling-main.474.pdf). In the paper, we offer a critical review of the state-of-the-art in automated fact-checking with a particular focus on interpretable fact-checking. 
 
 We would like to keep the information in this repository up-to-date, so we welcome contributions. If you would like to contribute please read [CONTRIBUTING.md](CONTRIBUTING.md) to see how.
 
@@ -10,14 +10,17 @@ We would like to keep the information in this repository up-to-date, so we welco
 If you find our work useful, please cite the paper as formatted below.
 
 ```bibtex
-  @inproceedings{kotonya2020survey,
+  @inproceedings{kotonya-toni-2020-explainable-automated,
     title = "Explainable Automated Fact-Checking: A Survey",
-    author = "Kotonya, Neema  and Toni, Francesca",
-    booktitle = "28th International Conference on Computational Linguistics (COLING 2020)",
-    publisher = "Association for Computational Linguistics",
-    address = "Online",
+    author = "Kotonya, Neema  and
+      Toni, Francesca",
+    booktitle = "Proceedings of the 28th International Conference on Computational Linguistics",
     month = dec,
-    year = "2020"
+    year = "2020",
+    address = "Barcelona, Spain (Online)",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.coling-main.474",
+    pages = "5430--5443"
   }
 ```
 
@@ -50,7 +53,7 @@ Here is an overview of papers mentioned in this work, and more recent papers whi
 
 Fact checking is the process of establishing the veracity of claims i.e., to distinguish between false stories (e.g., misattributions, rumours, hoaxes) and facts. 
 
-Over the past few years the use of machine learning methods for fact-checking and fake news detection has become a popular topic of study. Indeed, several exciting breakthroughs have occured in automated fact checking thanks in large part due to new datasets (e.g., [FEVER](https://fever.ai/)) and advances in deep learning for NLP. However there are still some limitations in this research area, the one we focus on in this work in our work is __explanations__ for automated fact checking. 
+Over the past few years the use of deep learning methods for fact checking and fake news detection have become a popular. Indeed, several exciting breakthroughs have occured in automated fact checking thanks in large part due to new datasets (e.g., [FEVER](https://fever.ai/)) and advances in machine learning for NLP. However there are still some limitations in this research area, the one we focus on in this work in our work is __explanations__ for automated fact checking. 
 
 The pipeline commonly employed for automated fact-checking consists of four parts (subtasks). We propose that post-hoc explanations are an important and necessary extension of this pipeline.
 
@@ -83,6 +86,8 @@ List of fact checking, rumour verification and fake news detection datasets:
 #### Fact checking and news websites
   
 * Explainable Automated Fact-Checking for Public Health Claims [[Kotonya and Toni, EMNLP 2020]](https://arxiv.org/abs/2010.09926) [[DATA]](https://github.com/neemakot/Health-Fact-Checking)
+* STANDER: An Expert-Annotated Dataset for News Stance Detection and Evidence Retrieval [[Conforti et al., EMNLP Findings 2020]](https://www.aclweb.org/anthology/2020.findings-emnlp.365)[[DATA]](https://github.com/cambridge-wtwt/emnlp2020-stander-news)
+* FakeCovid-- A Multilingual Cross-domain Fact Check News Dataset for COVID-19 [[Shahi and Nandini]](https://arxiv.org/abs/2006.11343) [[DATA]](https://gautamshahi.github.io/FakeCovid/)
 * MultiFC: A Real-World Multi-Domain Dataset for Evidence-Based Fact Checking of Claims [[Augenstein et al., EMNLP 2019]](https://www.aclweb.org/anthology/D19-1475/) [[DATA]](https://competitions.codalab.org/competitions/21163) 
 * A Richly Annotated Corpus for Different Tasks in Automated Fact-Checking [[Hanselowski et al., CoNLL 2019]](https://www.aclweb.org/anthology/K19-1046) [[CRAWLER]](https://github.com/UKPLab/conll2019-snopes-crawling) [[DATA]](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2081)
 * Integrating Stance Detection and Fact Checking in a Unified Corpus [[Baly et al., NAACL-18]](https://arxiv.org/abs/1804.08012) [[DATA]](https://alt.qcri.org/resources/arabic-fact-checking-and-stance-detection-corpus/)
@@ -98,6 +103,7 @@ List of fact checking, rumour verification and fake news detection datasets:
 * TabFact: A Large-scale Dataset for Table-based Fact Verification [[Chen et al., ICLR 2020]](https://arxiv.org/abs/1909.02164) [[DATA]](https://github.com/wenhuchen/Table-Fact-Checking) 
 * FEVER: a Large-scale Dataset for Fact Extraction and VERification [[Thorne et al., NAACL '18]](https://www.aclweb.org/anthology/N18-1074/) [[DATA]](https://fever.ai/resources.html) 
 * Automated Fact-Checking of Claims from Wikipedia [[Sathe et al., LREC 2020]](https://www.aclweb.org/anthology/2020.lrec-1.849/) [[DATA]](https://github.com/wikifactcheck-english/wikifactcheck-english)
+* Generating Fact Checking Briefs [[Fan et al., EMNLP 2020]](https://www.aclweb.org/anthology/2020.emnlp-main.580/)
 
 #### Scientific journals
 * Fact or Fiction: Verifying Scientific Claims [[Wadden et al., EMNLP 2020]](https://arxiv.org/abs/2004.14974) [[DATA]](https://github.com/allenai/scifact)
@@ -164,7 +170,7 @@ Multi-hop reasoning is closely important for explainability in fact-checking, re
 
 Automated Fact Checking and Fake News Detection Surveys:
 
-<!-- * A Survey of Fake News: Fundamental Theories, Detection Methods, and Opportunities [[Zhou and Zafarani, ACM Computing Surveys Sep '20]](https://dl.acm.org/doi/10.1145/3395046) -->
+* A Survey of Fake News: Fundamental Theories, Detection Methods, and Opportunities [[Zhou and Zafarani, ACM Computing Surveys Sep '20]](https://dl.acm.org/doi/10.1145/3395046)
 * A Review on Fact Extraction and VERification: The FEVER case [[Bekoulis et al., 2020]](https://arxiv.org/abs/2010.03001)
 * A Survey on Natural Language Processing for Fake News Detection [[Oshikawa et al., LREC 2020]](https://arxiv.org/abs/1811.00770)
 * Automated Fact Checking: Task Formulations, Methods and Future Directions [[Thorne and Vlachos, COLING'18]](https://www.aclweb.org/anthology/C18-1283/)
