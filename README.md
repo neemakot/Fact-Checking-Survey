@@ -76,7 +76,7 @@ List of fact checking, rumour verification and fake news detection datasets:
   
 #### Social media
 
-Claims from social media sources e.g., Twitter, Facebook.
+Claims from social media platforms sources e.g., Twitter, Facebook.
 
 * r/Fakeddit: A New Multimodal Benchmark Dataset for Fine-grained Fake News Detection (Nakamura et al., 2020).
 [[paper](https://www.aclweb.org/anthology/2020.lrec-1.755.pdf)]
@@ -114,7 +114,7 @@ Claims from social media sources e.g., Twitter, Facebook.
 
 #### Fact checking and news websites
 
-E.g., Snopes, Politifact
+Claims for news and fact-checking platforms e.g., [Snopes](https://www.snopes.com/), [Politifact](https://www.politifact.com/).
   
 * Explainable Automated Fact-Checking for Public Health Claims (Kotonya and Toni, 2020). 
 [[paper](https://arxiv.org/abs/2010.09926)]
@@ -310,6 +310,7 @@ Automated fact checking and fake news detection surveys:
 
 ## Tutorials
 * Fact Checking: Theory and Practice [[Dong et al., KDD 2018](https://shiralkarprashant.github.io/fact-checking-tutorial-KDD2018/)].
+* Fact-Checking, Fake News, Propaganda, and Media Bias: Truth Seeking in the Post-Truth Era [[Nakov and Da San Martino, EMNLP 2020](https://propaganda.qcri.org/emnlp20-tutorial/)].
 * Detection and Resolution of Rumors and Misinformation with NLP [[Derczynski and Zubiaga, COLING 2020](https://www.aclweb.org/anthology/2020.coling-tutorials.4.pdf)].
 
 ## Contact 
