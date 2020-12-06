@@ -1,6 +1,6 @@
 # Contributing
 
-We are keen to keep the information in this repository up-to-date, so we welcome contributions. 
+We would like to keep the information in this repository up-to-date, so we very much welcome contributions. If you would like to contribute please read this document. 
 
 When contributing to this repo, please communicate the reasons for the proposed change with the repository owners.
 
