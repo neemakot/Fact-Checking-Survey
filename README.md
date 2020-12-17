@@ -2,6 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2011.03870-green.svg)](https://arxiv.org/abs/2011.03870)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/neemakot/Fact-Checking-Survey)
+[![Last Commit](https://img.shields.io/github/last-commit/neemakot/Fact-Checking-Survey.svg)](https://github.com/neemakot/Fact-Checking-Survey)
 [![Contribution_welcome](https://img.shields.io/badge/Contributions-welcome-blue)](https://github.com/neemakot/Fact-Checking-Survey/blob/main/CONTRIBUTING.md)
 
 
@@ -14,16 +15,16 @@ If you find our work useful, please cite the paper as formatted below.
 
 ```bibtex
   @inproceedings{kotonya-toni-2020-explainable-automated,
-    title = "Explainable Automated Fact-Checking: A Survey",
-    author = "Kotonya, Neema  and
-      Toni, Francesca",
-    booktitle = "Proceedings of the 28th International Conference on Computational Linguistics",
-    month = dec,
-    year = "2020",
-    address = "Barcelona, Spain (Online)",
-    publisher = "International Committee on Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2020.coling-main.474",
-    pages = "5430--5443"
+      title = "Explainable Automated Fact-Checking: A Survey",
+      author = "Kotonya, Neema  and
+        Toni, Francesca",
+      booktitle = "Proceedings of the 28th International Conference on Computational Linguistics",
+      month = dec,
+      year = "2020",
+      address = "Barcelona, Spain (Online)",
+      publisher = "International Committee on Computational Linguistics",
+      url = "https://www.aclweb.org/anthology/2020.coling-main.474",
+      pages = "5430--5443"
   }
 ```
 
@@ -33,13 +34,19 @@ If you find our work useful, please cite the paper as formatted below.
 Here is an overview of papers mentioned in this work, and more recent papers which have been added.
 
 - [Introduction](#introduction)
+- [Task Formulations](#task-definitions)
 - [Datasets](#fact-checking-datasets)
   - [Naturally occuring](#naturally-occurring)
     - [Social media](#social-media)
     - [Fact-checking and news websites](#fact-checking-and-news-websites)
   - [Hand crafted](#hand-crafted)
     - [Wikipedia](#wikipedia)
-    - [Scientific journals](#scientific-journals)
+    - [Journals](#scientific-journals)
+- [Fact Checking Systems](#fact-checking-systems)
+  - [By dataset](#systems-by-dataset)
+    - [LIAR](#liar)
+    - [FEVER](#fever)
+    - [MultiFC](#multifc)
 - [Shared Tasks](#shared-tasks)
 - [Explainable Fact Checking](#explainable-fact-checking)
   - [Systems](#systems)
@@ -66,6 +73,72 @@ The pipeline commonly employed for automated fact-checking consists of four part
 
 
 For an overview of the data and results mentioned in our survey, please visit [this webpage](https://neemakot.github.io/project/survey).
+
+
+## Task Formulations
+
+Here we list papers which address varied tasks related to fact checking and fake news detection.
+
+* __Check-worthy Claim Detection__
+    - Toward Automated Fact-Checking: Detecting Check-worthy Factual Claims by ClaimBuster (Hassan et al., 2017).
+    [[paper](http://library.usc.edu.ph/ACM/KKD%202017/pdfs/p1803.pdf)]
+    [[bib](https://dblp.org/rec/conf/kdd/HassanALT17.html?view=bibtex)]
+
+* __Fauxtography and Multimodal Fake News Detection__
+  - FauxBuster: A Content-free Fauxtography Detector Using Social Media Comments (Zhang et al., 2018).
+    [[paper](https://www3.nd.edu/~sslab/pdf/bigdata18-fb.pdf)]
+    [[bib](https://www.computer.org/csdl/api/v1/citation/bibtex/proceedings/17D45VtKisB/08622344)]
+    [[slides](http://dyzhang.net/proj-images/p2.pdf)]
+  - Fact-Checking Meets Fauxtography: Verifying Claims About Images (Zlatkova et al., 2019).
+    [[paper](https://www.aclweb.org/anthology/D19-1216.pdf)]
+    [[bib](https://www.aclweb.org/anthology/D19-1216.bib)]
+  - Eann: Event adversarial neural networks for multi-modal fake news detection (Wang et al., 2018).
+    [[paper](https://cse.buffalo.edu/~lusu/papers/KDD2018Yaqing.pdf)]
+    [[bib](https://dblp.org/rec/conf/kdd/WangMJYXJSG18.html?view=bibtex)]
+
+* __Identifying Previously Fact-Checked Claims__
+  - That is a Known Lie: Detecting Previously Fact-Checked Claims
+    [[paper](https://www.aclweb.org/anthology/2020.acl-main.332.pdf)]
+    [[bib](https://www.aclweb.org/anthology/2020.acl-main.332.bib)]
+  - Where Are the Facts? Searching for Fact-checked Information to Alleviate the Spread of Fake News
+    [[paper](https://www.aclweb.org/anthology/2020.emnlp-main.621.pdf)]
+    [[bib](https://www.aclweb.org/anthology/2020.emnlp-main.621.bib)]
+
+* __Neural Fake News Detection__
+  - Defending against neural fake news (Zellers et al., 2019).
+    [[paper](https://proceedings.neurips.cc/paper/2019/file/3e9f0fc9b2f89e043bc6233994dfcf76-Paper.pdf)]
+    [[bib](https://dblp.org/rec/conf/nips/ZellersHRBFRC19.html?view=bibtex)]
+  - Detecting Cross-Modal Inconsistency to Defend Against Neural Fake News (Tan et al., 2020).
+    [[paper](https://www.aclweb.org/anthology/2020.emnlp-main.163.pdf)]
+    [[bib](https://www.aclweb.org/anthology/2020.emnlp-main.163.bib)]
+
+* __Rumour Verification and Resolution__
+  - SemEval-2019 Task 7: RumourEval, Determining Rumour Veracity and Support for Rumours (Gorrell et al., 2019).
+  [[paper](https://www.aclweb.org/anthology/S19-2147.pdf)]
+  [[bib](https://www.aclweb.org/anthology/S19-2147.bib)]
+  - Can Rumour Stance Alone Predict Veracity? (Dungs et al., 2018).
+  [[paper](https://www.aclweb.org/anthology/C18-1284.pdf)]
+  [[bib](https://www.aclweb.org/anthology/C18-1284.bib)]
+  - SemEval-2017 Task 8: RumourEval: Determining rumour veracity and support for rumours (Derczynski et al., 2017).
+  [[paper](https://www.aclweb.org/anthology/S17-2006.pdf)]
+  [[bib](https://www.aclweb.org/anthology/S17-2006.bib)]
+
+* __Stylometric Analysis of News Articles__
+  - A stylometric inquiry into hyperpartisan and fake news (Potthast et al., 2017)
+  [[paper](https://www.aclweb.org/anthology/P18-1022.pdf)]
+  [[bib](https://www.aclweb.org/anthology/P18-1022.bib)]
+  [[video](https://vimeo.com/285800660)]
+  - Truth of Varying Shades: Analyzing Language in Fake News and Political Fact-Checking (Rashkin et al., 2017).
+  [[paper](https://www.aclweb.org/anthology/D17-1317.pdf)]
+  [[bib](https://www.aclweb.org/anthology/D17-1317.bib)]
+
+* __Table-based Fact Verification__
+  - TabFact: A Large-scale Dataset for Table-based Fact Verification (Chen et al., 2020). 
+  [[paper](https://openreview.net/pdf?id=rkeJRhNYDH)]
+  [[bib](https://dblp.org/rec/conf/iclr/ChenWCZWLZW20.html?view=bibtex)]
+
+
+* [__Multi-hop Fact Checking__](#multihop-reasoning-for-facting-checking)
 
 
 ## Fact Checking Datasets
@@ -139,7 +212,7 @@ Claims for news and fact-checking platforms e.g., [Snopes](https://www.snopes.co
 [[bib](https://www.aclweb.org/anthology/K19-1046.bib)]
 * Integrating Stance Detection and Fact Checking in a Unified Corpus (Baly et al., 2018).
 [[paper](https://www.aclweb.org/anthology/N18-2004.pdf)]
-[[data]](https://alt.qcri.org/resources/arabic-fact-checking-and-stance-detection-corpus/)]
+[[data](https://alt.qcri.org/resources/arabic-fact-checking-and-stance-detection-corpus/)]
 [[bib](https://www.aclweb.org/anthology/N18-2004.bib)]
 * FakeNewsNet: A Data Repository with News Content, Social Context and Spatialtemporal Information for Studying Fake News on Social Media (Shu et al., 2018).
 [[paper](https://arxiv.org/pdf/1809.01286.pdf)]
@@ -183,10 +256,72 @@ This covers claims which are generated manually e.g. through re-writing statemen
 [[bib](https://www.aclweb.org/anthology/2020.emnlp-main.609.bib )]
 
 
+## Fact Checking Systems
+
+A list of fact-checking and fake news detection systems.
+
+### Systems by Dataset
+
+#### [LIAR](https://www.aclweb.org/anthology/P17-2067.pdf)
+
+* Where is your Evidence: Improving Fact-checking by Justification
+Modeling (Alhindi et al., 2018).
+[[paper](https://www.aclweb.org/anthology/W18-5513.pdf)]
+[[bib](https://www.aclweb.org/anthology/W18-5513.bib)]
+[[code](https://github.com/Tariq60/LIAR-PLUS)]
+* Generating Fact Checking Explanations (Atanasova et al., 2020).
+[[paper](https://www.aclweb.org/anthology/2020.acl-main.656.pdf)]
+[[bib](https://www.aclweb.org/anthology/2020.acl-main.656.bib)]
+
+
+#### [FEVER](https://www.aclweb.org/anthology/N18-1074.pdf)
+
+* [FEVER 1.0 Baseline](https://github.com/sheffieldnlp/fever-naacl-2018)
+* Combining Fact Extraction and Verification with Neural Semantic Matching Networks (Nie et al., 2019).
+  [[paper](https://arxiv.org/pdf/1811.07039.pdf)]
+  [[bib](https://dblp.org/rec/conf/aaai/NieCB19.html?view=bibtex)]
+  [[code](https://github.com/easonnie/combine-FEVER-NSMN/)]
+* UCL Machine Reading Group: Four Factor Framework For Fact Finding (HexaF) (Yoneda et al., 2018).
+  [[paper](https://www.aclweb.org/anthology/W18-5515.pdf)]
+  [[bib](https://www.aclweb.org/anthology/W18-5515.bib)] 
+  [[code](https://github.com/uclmr/fever)]
+* UKP-Athene: Multi-Sentence Textual Entailment for Claim Verification (Hanselowski et al., 2018).
+  [[paper](https://www.aclweb.org/anthology/W18-5516.pdf)]
+  [[bib](https://www.aclweb.org/anthology/W18-5516.bib)]
+  [[code](https://github.com/UKPLab/fever-2018-team-athene)]
+* Team Papelo: Transformer Networks at FEVER (Malon, 2018).
+  [[paper](https://www.aclweb.org/anthology/W18-5517.pdf)]
+  [[bib](https://www.aclweb.org/anthology/W18-5517.bib)]
+  [[code](https://github.com/necla-ml/fever2018)]
+* Team DOMLIN: Exploiting Evidence Enhancement for the FEVER Shared Task (Stammbach and Neumann, 2019).
+  [[paper](https://www.aclweb.org/anthology/D19-6616.pdf)]
+  [[bib](https://www.aclweb.org/anthology/D19-6616.bib)]
+  [[code](https://github.com/necla-ml/fever2018)]
+* GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification
+  [[paper](https://www.aclweb.org/anthology/P19-1085.pdf)]
+  [[bib](https://www.aclweb.org/anthology/P19-1085.pdf)]
+  [[code](https://github.com/thunlp/GEAR)]
+* Fine-grained Fact Verification with Kernel Graph Attention Network
+  [[paper](https://www.aclweb.org/anthology/2020.acl-main.655.pdf)]
+  [[bib](https://www.aclweb.org/anthology/2020.acl-main.655.bib)]
+  [[code](https://github.com/thunlp/KernelGAT)]
+
+
+#### [MultiFC](https://www.aclweb.org/anthology/D19-1475.pdf)
+* Time-Aware Evidence Ranking for Fact-Checking (Allein et al., 2020).
+  [[paper](https://arxiv.org/pdf/2009.06402.pdf)]
+  [[bib](https://dblp.org/rec/journals/corr/abs-2009-06402.html?view=bibtex)]
+
+
+
 ## Shared Tasks
 
-* SciFact Claim Verifiation [[Wadden et al., 2020](https://scifact.apps.allenai.org/)]
-* Fakeddit Multimodal Fake News Detection Challenge [[Nakamura et al., 2020](https://competitions.codalab.org/competitions/25337#learn_the_details)]
+📣  
+indicates the shared task is ongoing!
+
+* Statement Verification and Evidence Finding with Tables (SEM-TAB-FACT) [[Wang et al., 2021](https://competitions.codalab.org/competitions/27748)] 📣
+* SciFact Claim Verifiation [[Wadden et al., 2020](https://scifact.apps.allenai.org/)] 📣
+* Fakeddit Multimodal Fake News Detection Challenge [[Nakamura et al., 2020](https://competitions.codalab.org/competitions/25337#learn_the_details)] 📣
 * SemEval-2019 Task 7: RumourEval, Determining Rumour Veracity and Support for Rumours [[Gorrell et al., 2019](https://www.aclweb.org/anthology/S19-2147/)]
 * SemEval-2019 Task 8: Fact Checking in Community Question Answering Forums [[Mihaylova et al., 2019](https://www.aclweb.org/anthology/S19-2149/)]
 * The Fake News Challenge (FNC-1) [[Pomerleau and Rao, 2017](http://www.fakenewschallenge.org/)]
@@ -300,13 +435,30 @@ Multi-hop reasoning is closely important for explainability in fact-checking, re
 
 Automated fact checking and fake news detection surveys:
 
-* A Survey of Fake News: Fundamental Theories, Detection Methods, and Opportunities [[Zhou and Zafarani, ACM Computing Surveys 2020](https://dl.acm.org/doi/10.1145/3395046)].
-* A Review on Fact Extraction and VERification: The FEVER case [[Bekoulis et al., 2020](https://arxiv.org/abs/2010.03001)].
-* A Survey on Natural Language Processing for Fake News Detection [[Oshikawa et al., LREC 2020](https://arxiv.org/abs/1811.00770)].
-* Automated Fact Checking: Task Formulations, Methods and Future Directions [[Thorne and Vlachos, COLING'18](https://www.aclweb.org/anthology/C18-1283/)].
-* Media-Rich Fake News Detection: A Survey [[Parikh and Atrey MIPR '18](https://ieeexplore.ieee.org/abstract/document/8397049)]
-* Fake News Detection on Social Media: A Data Mining Perspective [[Shu et al., ACM SIGKDD Explorations Newsletter Sep 2017](https://dl.acm.org/doi/abs/10.1145/3137597.3137600)].
-* Detection and resolution of rumours in social media: A survey [[Zubiaga et al., 2018](https://dl.acm.org/doi/10.1145/3161603)].
+* A Survey of Fake News: Fundamental Theories, Detection Methods, and Opportunities (Zhou and Zafarani, ACM Computing Surveys 2020).
+[[paper](https://dl.acm.org/doi/10.1145/3395046)]
+[[bib](https://dblp.org/rec/journals/csur/ZhouZ20.html?view=bibtex)].
+* A Review on Fact Extraction and VERification: The FEVER case (Bekoulis et al., 2020).
+[[paper](https://arxiv.org/abs/2010.03001)]
+[[bib](https://dblp.org/rec/journals/corr/abs-2010-03001.html?view=bibtex)]
+* A Survey on Fake News and Rumour Detection Techniques (Bondielli and Marcelloni, 2019).
+[[paper](https://www.sciencedirect.com/science/article/abs/pii/S0020025519304372?via%3Dihub)]
+[[bib](https://dblp.org/rec/journals/isci/BondielliM19.html?view=bibtex)]
+* A Survey on Natural Language Processing for Fake News Detection (Oshikawa et al., 2020).
+[[paper](https://www.aclweb.org/anthology/2020.lrec-1.747.pdf)]
+[[bib](https://www.aclweb.org/anthology/2020.lrec-1.747.bib)]
+* Detection and Resolution of Rumours in Social Media: A Survey (Zubiaga et al., 2018).
+[[paper](http://kddlab.zjgsu.edu.cn:7200/research/rumor/Detection%20and%20Resolution%20of%20Rumours%20in%20Social%20Media_%20A%20Survey.pdf)]
+[[bib](https://dblp.uni-trier.de/rec/journals/csur/ZubiagaABLP18.html?view=bibtex)]
+* Automated Fact Checking: Task Formulations, Methods and Future Directions (Thorne and Vlachos, COLING 2018).
+[[paper](https://www.aclweb.org/anthology/C18-1283.pdf)]
+[[bib](https://www.aclweb.org/anthology/C18-1283.bib)]
+* Media-Rich Fake News Detection: A Survey (Parikh and Atrey MIPR 2018).
+[[paper](https://www.albany.edu/~sp191221/publications/Fake_Media_Rich_News_Detection_A_Survey.pdf)]
+[[bib](https://dblp.org/rec/conf/mipr/ParikhA18.html?view=bibtex)]
+* Fake News Detection on Social Media: A Data Mining Perspective (Shu et al., ACM SIGKDD Explorations Newsletter Sep 2017).
+[[paper](https://arxiv.org/pdf/1708.01967.pdf)]
+[[bib](https://dblp.org/rec/journals/sigkdd/ShuSWTL17.html?view=bibtex)]
 
 ## Tutorials
 * Fact Checking: Theory and Practice [[Dong et al., KDD 2018](https://shiralkarprashant.github.io/fact-checking-tutorial-KDD2018/)].
